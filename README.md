@@ -26,12 +26,6 @@ O objetivo não é só apresentar a receita, mas explorar até onde o HTML puro 
 - **contenteditable** — edição de conteúdo diretamente na página
 - **Elementos semânticos** — `<header>`, `<section>`
 
-## ⚠️ Pontos de atenção (para próximas iterações)
-
-Ao revisar o código-fonte atual, alguns ajustes de estrutura ainda valem a pena:
-- O `<div id="segredo popover">` tem um espaço no `id`, o que invalida o atributo — o correto seria `id="segredo"` com o atributo `popover` separado.
-- As tags `<header>` e `<section>` estão fora de um `<body>`, e o `<body>` aparece vazio no final do documento.
-
 ## 🛠️ Como usar
 
 Basta abrir o arquivo `.html` em qualquer navegador atualizado (Chrome, Edge ou Safari recentes) — a Popover API e o `contenteditable` não exigem servidor nem build step.
